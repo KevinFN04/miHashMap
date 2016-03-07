@@ -87,5 +87,15 @@ public class MiHashMap
     public boolean isEmpty(){
         return keys.length == 0;
     }
+    
+        /**
+     * devuelve el número de elementos del mapa.
+     */
+    public int size(){
+        return keys.length;
+    }
+    
+
+    
 }
 
