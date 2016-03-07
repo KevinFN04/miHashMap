@@ -80,5 +80,12 @@ public class MiHashMap
         }
         return value;
     }
+    
+    /**
+     * devuelve true si el mapa no contiene elementos.
+     */
+    public boolean isEmpty(){
+        return keys.length == 0;
+    }
 }
 
