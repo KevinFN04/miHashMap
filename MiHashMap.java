@@ -95,7 +95,11 @@ public class MiHashMap
         return keys.length;
     }
     
-
-    
+    /**
+     * elimina del mapa el elemento con la clave dada y devuelve su valor. Si no hay esa clave en el mapa devuelve -1.
+     */
+    public int remove(String clave){
+        return -1;
+    }
 }
 
